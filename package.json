@@ -1,5 +1,5 @@
 {
-  "name": "bandi-events",
+  "name": "micropayment-hooks",
   "version": "0.0.2",
   "description": "Hook into micropayment events",
   "source": "src/index.js",
