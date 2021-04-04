@@ -17,7 +17,7 @@ import { MONETIZATION_PROGRESS, REQUIRED_PARAMS } from './constants';
 
 const NO_OP = () => {};
 
-const RankedProfile = (): MicropaymentEvents => {
+const MicropaymentHooks = (): MicropaymentEvents => {
   let currentXP: number;
   let currentLevel: number;
   let thresholds: Array<number>;
@@ -198,4 +198,4 @@ const RankedProfile = (): MicropaymentEvents => {
   };
 };
 
-export default RankedProfile;
+export default MicropaymentHooks;
